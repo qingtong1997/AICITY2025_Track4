@@ -1,0 +1,4 @@
+*.json filter=lfs diff=lfs merge=lfs -text
+infer/image_id.json filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
