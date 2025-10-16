@@ -2,9 +2,10 @@ import warnings
 warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
+
 if __name__ == '__main__':
     model = YOLO('runs/train/8D/weights/best.pt') # select your model.pt path
-    model.predict(source='/home/anonymous/AICITY2024_Track4/dataset/fisheye_test/images',
+    model.predict(source='../../AICITY2024_Track4/dataset/fisheye_test/images',
                   imgsz=1280,
                   project='runs/detect',
                   name='8d',
