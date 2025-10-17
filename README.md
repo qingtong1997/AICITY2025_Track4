@@ -1,6 +1,6 @@
 # AICITY2025 Track4
 
-This repository is a modified version of the original codebase for AICITY2025 Track4. It provides instructions to reproduce leaderboard results using a pre-built Docker image, as well as guidance for training YOLOv8 and YOLOv11 models from scratch. For training other models like Co-DETR, YOLOR-W6, and YOLOv9-e, please refer to the original repositories.
+This repository is a modified version of the original codebase for AICITY2025 Track4. It provides instructions to reproduce leaderboard results using a pre-built Docker image, as well as guidance for training YOLOv8 and YOLOv11 models from scratch. For training other models, please refer to the original repositories.
 
 ## Quick Start with Docker
 
@@ -39,7 +39,7 @@ If the Docker image does not include everything or you need to set up manually:
 
 - Example directory structure after setup:
 
-/AICITY2024_Track4/docker/code/dataset2/
+AICITY2025_Track4/dataset/
 ├── fisheye8k/
 │ ├── test/
 │ └── train/
